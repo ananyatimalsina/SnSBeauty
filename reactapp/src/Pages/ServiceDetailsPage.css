@@ -1,0 +1,112 @@
+.service-details {
+  transform: translateY(100%);
+  transition: transform 0.5s ease-out;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+  justify-content: space-between;
+}
+
+.service-details.active {
+  transform: translateY(0);
+}
+
+.service-details img {
+  max-width: 486px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.service-info {
+  margin-left: 15px;
+}
+
+.service-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-duration {
+  color: #d3abc3;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  margin-bottom: 20px;
+}
+
+.service-price {
+  color: #dc808c;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+input[type="date"] {
+  background-color: #ffffff;
+  border: 5px solid #000000;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.book-button {
+  background-color: #ffffff;
+  color: #dc808c;
+  border-radius: 15px;
+  border: 5px solid #000000;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin: auto;
+}
+
+.book-button:hover {
+  background-color: #000000;
+}
+
+.book-button:disabled,
+select:disabled,
+input[type="date"]:disabled,
+input[type="date"]:read-only {
+  background-color: #f0f0f0;
+  color: #d3abc3;
+  cursor: not-allowed;
+}
+
+select {
+  background-color: #ffffff;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+select option {
+  color: #000000;
+}
+
+@media (max-width: 650px) {
+  .service-details {
+    flex-direction: column;
+  }
+
+  .service-info {
+    margin-left: 0;
+  }
+}
+
+.centeredLoading {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

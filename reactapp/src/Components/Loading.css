@@ -1,0 +1,22 @@
+.Loading {
+  fill: #000;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.LoadingIcon {
+  animation: rotateAnimation 1s linear infinite;
+  width: 5rem;
+  height: 5rem;
+  z-index: 1000;
+}

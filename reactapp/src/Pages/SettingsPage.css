@@ -1,0 +1,91 @@
+.Back,
+.Logout {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-btn:hover > .Back,
+.logout-btn:hover > .Logout {
+  width: 2rem;
+  height: 2rem;
+}
+
+.settingsContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 5px solid #000000;
+  padding: 50px;
+  flex-grow: 1;
+}
+
+.header h1 {
+  margin-top: 0;
+  padding: 0px 100px;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.settingsForm input[type="text"],
+.settingsForm input[type="tel"],
+.settingsForm input[type="password"] {
+  border-radius: 15px;
+  border: 5px solid #000000;
+  padding: 10px;
+  font-size: 16px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-submit {
+  background-color: #ffffff;
+  color: #dc808c;
+  border-radius: 15px;
+  border: 5px solid #000000;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 70%;
+  margin: auto;
+}
+.form-submit:hover {
+  background-color: #000000;
+}
+
+.delete_account {
+  background-color: #ffffff;
+  color: #dc808c;
+  border-radius: 15px;
+  border: 5px solid red;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 70%;
+  margin: auto;
+}
+
+.delete_account:hover {
+  background-color: red;
+  /* color: #ffffff; */
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}

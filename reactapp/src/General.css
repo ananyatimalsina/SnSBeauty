@@ -1,0 +1,21 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  background-color: #ede6e6;
+}
+
+footer,
+header {
+  background-color: #ede6e6;
+}
+
+.divider {
+  border-bottom: 5px solid #d3abc3;
+  margin-bottom: 16px;
+}
+
+.s2,
+.and {
+  transform: translate(0);
+  transition: transform 0.3s ease-in;
+}

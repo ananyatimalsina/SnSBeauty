@@ -1,0 +1,5 @@
+footer {
+  padding: 20px;
+  text-align: center;
+  grid-row: 2; /* Position the footer in the second row of the grid */
+}
